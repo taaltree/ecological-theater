@@ -60,11 +60,13 @@ ${rows}
 
 ## Rebuilding
 
-Requires macOS (\`say\` for narration), Node 22+, ffmpeg, and Google Chrome.
+Requires Node 22+, ffmpeg, and Google Chrome. Narration comes from ElevenLabs (one take per scene); a free fallback uses macOS \`say\`.
 
 \`\`\`bash
 cd source
-node tools/build_audio.mjs --voice Samantha --rate 165   # narration + timing + captions
+node tools/el_script.mjs        # per-scene narration texts → build/el/requests.json; synthesize each, save as build/el/<scene>.mp3
+node tools/build_audio_el.mjs   # align sentences, lay out timing, narration track + captions
+# (fallback) node tools/build_audio.mjs --voice Samantha --rate 165
 node tools/build_music.mjs                               # score mixed under narration
 node tools/stills.mjs <scene-id>                         # preview frames of any scene
 node tools/render_video.mjs                              # 1080p MP4 (add --captions for burned-in captions)

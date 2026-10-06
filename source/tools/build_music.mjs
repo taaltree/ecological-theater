@@ -7,9 +7,9 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { loadTheater, BUILD } from './load.mjs';
 
-const SR = 22050;
 const Th = loadTheater();
 const narr = fs.readFileSync(path.join(BUILD, 'narration.wav'));
+const SR = narr.readUInt32LE(24);
 const nPCM = new Int16Array(narr.buffer.slice(narr.byteOffset + 44, narr.byteOffset + narr.length - ((narr.length - 44) % 2)));
 const N = nPCM.length; const dur = N / SR;
 

@@ -42,12 +42,15 @@ let time = 0, playing = false, rate = Number(store.get('rate', 1)), captions = s
 let lastPerf = performance.now(), dirty = true, started = false, audioOK = false;
 const audio = new Audio(); audio.preload = 'auto';
 audio.addEventListener('canplay', () => { audioOK = true; });
-let triedDirect = false;
-audio.addEventListener('error', () => { audioOK = false; if (!triedDirect && audio.src.startsWith('blob:')) { triedDirect = true; audio.src = 'soundtrack.m4a'; } });
+// Soundtrack: prefer AAC (.m4a), fall back to MP3 where .m4a is not hosted.
+const AUDIO_FILES = ['soundtrack.m4a', 'soundtrack.mp3']; let audioFile = AUDIO_FILES[0], triedDirect = false;
+audio.addEventListener('error', () => { audioOK = false; if (!triedDirect && audio.src.startsWith('blob:')) { triedDirect = true; audio.src = audioFile; } });
 (async () => {
   if (window.NARRATION_SRC) { audio.src = window.NARRATION_SRC; return; }
-  try { const r = await fetch('soundtrack.m4a'); if (!r.ok) throw new Error('fetch failed'); audio.src = URL.createObjectURL(await r.blob()); }
-  catch (e) { audio.src = 'soundtrack.m4a'; }
+  for (const f of AUDIO_FILES) {
+    try { const r = await fetch(f); if (!r.ok) continue; audioFile = f; audio.src = URL.createObjectURL(await r.blob()); return; } catch (e) { /* try next */ }
+  }
+  audio.src = AUDIO_FILES[0]; // file:// pages cannot fetch; let the media element load it directly
 })();
 audio.muted = muted; audio.playbackRate = rate;
 $('rate').value = String(rate);

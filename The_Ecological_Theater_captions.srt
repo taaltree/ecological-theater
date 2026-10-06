@@ -1,2263 +1,2263 @@
 1
-00:00:02,200 --> 00:00:07,103
+00:00:02,200 --> 00:00:06,890
 In 1965, G. Evelyn Hutchinson described nature as the ecological theater:
 
 2
-00:00:07,103 --> 00:00:10,730
+00:00:06,890 --> 00:00:10,360
 the stage on which the evolutionary play is performed.
 
 3
-00:00:11,480 --> 00:00:14,902
+00:00:11,110 --> 00:00:14,480
 Every question in ecology asks some version of the same thing.
 
 4
-00:00:15,222 --> 00:00:19,496
+00:00:14,880 --> 00:00:18,670
 Why are these organisms here, in these numbers, alongside these neighbors?
 
 5
-00:00:20,246 --> 00:00:24,374
+00:00:19,420 --> 00:00:23,507
 Ecologists answer with theory: a toolkit of models for growth,
 
 6
-00:00:24,374 --> 00:00:28,568
+00:00:23,507 --> 00:00:27,660
 niches, competition, predation, and movement across landscapes.
 
 7
-00:00:29,918 --> 00:00:34,977
+00:00:29,010 --> 00:00:34,120
 In this program we build that toolkit, from a single population up to whole metacommunities.
 
 8
-00:00:35,297 --> 00:00:37,574
+00:00:34,520 --> 00:00:36,630
 Watch the lexicon on the right of the screen.
 
 9
-00:00:37,894 --> 00:00:41,200
+00:00:37,030 --> 00:00:40,350
 Every numbered term is one an examiner may ask you to define.
 
 10
-00:00:45,600 --> 00:00:46,422
+00:00:44,750 --> 00:00:45,480
 Chapter one.
 
 11
-00:00:46,742 --> 00:00:50,829
+00:00:45,880 --> 00:00:49,690
 Population dynamics: the rules by which numbers change through time.
 
 12
-00:00:53,529 --> 00:00:56,053
+00:00:52,390 --> 00:00:54,860
 Begin with a single population and no limits.
 
 13
-00:00:56,373 --> 00:01:02,313
+00:00:55,260 --> 00:01:01,833
 If each individual has a constant per-capita birth rate, b, and death rate, d,
 
 14
-00:01:02,313 --> 00:01:08,862
+00:01:01,833 --> 00:01:09,080
 the population grows as dN/dt = rN, where r = b − d is the intrinsic rate of increase.
 
 15
-00:01:09,612 --> 00:01:14,508
+00:01:09,830 --> 00:01:14,627
 The result is exponential growth: a J-shaped curve in which the population
 
 16
-00:01:14,508 --> 00:01:19,074
+00:01:14,627 --> 00:01:19,100
 doubles every ln 2 / r time units, no matter how large it already is.
 
 17
-00:01:19,824 --> 00:01:26,432
+00:01:19,850 --> 00:01:27,760
 Species that breed in discrete pulses follow the geometric model, N(t+1) = λN(t).
 
 18
-00:01:26,752 --> 00:01:30,309
+00:01:28,160 --> 00:01:31,690
 Lambda, the finite rate of increase, equals e^r.
 
 19
-00:01:30,629 --> 00:01:35,449
+00:01:32,090 --> 00:01:36,870
 When λ > 1 the population grows, when λ < 1 it declines,
 
 20
-00:01:35,449 --> 00:01:38,978
+00:01:36,870 --> 00:01:40,370
 and when λ = 1 it simply replaces itself.
 
 21
-00:01:39,728 --> 00:01:44,272
+00:01:41,120 --> 00:01:46,520
 Both models are density-independent: per-capita rates do not change with crowding.
 
 22
-00:01:44,592 --> 00:01:49,565
+00:01:46,920 --> 00:01:52,008
 No population sustains this for long, but it is the baseline every other model modifies,
 
 23
-00:01:49,565 --> 00:01:54,198
+00:01:52,008 --> 00:01:56,750
 and it describes invasions and recoveries surprisingly well in their early phases.
 
 24
-00:01:56,598 --> 00:01:58,358
+00:01:59,150 --> 00:02:00,900
 No population grows forever.
 
 25
-00:01:58,678 --> 00:02:04,408
+00:02:01,300 --> 00:02:07,470
 As density rises, resources dwindle and per-capita growth declines: density dependence.
 
 26
-00:02:04,728 --> 00:02:10,577
+00:02:07,870 --> 00:02:14,600
 Its simplest form is the logistic model, dN/dt = rN(1 − N/K).
 
 27
-00:02:11,327 --> 00:02:15,469
+00:02:15,350 --> 00:02:19,490
 K is the carrying capacity, the density at which births balance deaths.
 
 28
-00:02:15,789 --> 00:02:20,659
+00:02:19,890 --> 00:02:24,623
 Population growth is fastest at K/2, the inflection point of the S-shaped curve,
 
 29
-00:02:20,659 --> 00:02:25,286
+00:02:24,623 --> 00:02:29,120
 which is why classic fisheries models place maximum sustainable yield there.
 
 30
-00:02:26,036 --> 00:02:29,706
+00:02:29,870 --> 00:02:33,570
 Density dependence can act on births, deaths, or both.
 
 31
-00:02:30,026 --> 00:02:33,657
+00:02:33,970 --> 00:02:37,609
 It is compensatory when recruitment levels off at high density,
 
 32
-00:02:33,657 --> 00:02:39,419
+00:02:37,609 --> 00:02:43,385
 as in the Beverton–Holt model, and overcompensatory when recruitment actually falls at high density,
 
 33
-00:02:39,419 --> 00:02:43,165
+00:02:43,385 --> 00:02:47,140
 as in the Ricker model, which can produce boom-and-bust dynamics.
 
 34
-00:02:43,915 --> 00:02:46,628
+00:02:47,890 --> 00:02:50,630
 At very low density the relationship can reverse.
 
 35
-00:02:46,948 --> 00:02:50,604
+00:02:51,030 --> 00:02:54,941
 Under an Allee effect, per-capita growth increases with density,
 
 36
-00:02:50,604 --> 00:02:53,689
+00:02:54,941 --> 00:02:58,240
 because mates are hard to find or group defenses fail.
 
 37
-00:02:54,009 --> 00:02:57,077
+00:02:58,640 --> 00:03:01,488
 A strong Allee effect creates a critical threshold below
 
 38
-00:02:57,077 --> 00:02:59,707
+00:03:01,488 --> 00:03:03,930
 which the population declines toward extinction.
 
 39
-00:03:02,107 --> 00:03:04,493
+00:03:06,330 --> 00:03:08,630
 Density dependence rarely acts instantly.
 
 40
-00:03:04,813 --> 00:03:08,670
+00:03:09,030 --> 00:03:12,713
 If growth responds to density at some time τ in the past,
 
 41
-00:03:08,670 --> 00:03:11,985
+00:03:12,713 --> 00:03:15,880
 a population can overshoot its carrying capacity.
 
 42
-00:03:12,735 --> 00:03:16,573
+00:03:16,630 --> 00:03:20,878
 In Hutchinson’s lagged logistic, small values of rτ give a smooth
 
 43
-00:03:16,573 --> 00:03:20,116
+00:03:20,878 --> 00:03:24,800
 approach to K. Intermediate values give damped oscillations.
 
 44
-00:03:20,436 --> 00:03:22,867
+00:03:25,200 --> 00:03:27,734
 When rτ exceeds π/2, about 1.57,
 
 45
-00:03:22,867 --> 00:03:28,716
+00:03:27,734 --> 00:03:33,830
 the population settles into a stable limit cycle and oscillates indefinitely.
 
 46
-00:03:29,466 --> 00:03:33,215
+00:03:34,580 --> 00:03:38,080
 Populations with discrete generations can do stranger things still.
 
 47
-00:03:33,535 --> 00:03:36,792
+00:03:38,480 --> 00:03:41,728
 In the logistic map, studied by Robert May in 1976,
 
 48
-00:03:36,792 --> 00:03:41,008
+00:03:41,728 --> 00:03:45,930
 raising the growth rate drives the population from a stable point,
 
 49
-00:03:41,008 --> 00:03:45,862
+00:03:45,930 --> 00:03:50,770
 through a cascade of period-doubling bifurcations, into deterministic chaos.
 
 50
-00:03:48,112 --> 00:03:53,501
+00:03:53,020 --> 00:03:58,571
 Chaos means erratic, aperiodic fluctuations generated by a simple deterministic rule,
 
 51
-00:03:53,501 --> 00:03:56,481
+00:03:58,571 --> 00:04:01,640
 with extreme sensitivity to initial conditions.
 
 52
-00:03:56,801 --> 00:04:01,217
+00:04:02,040 --> 00:04:06,550
 May’s lesson: complex dynamics in nature need not have complex causes.
 
 53
-00:04:04,617 --> 00:04:06,517
+00:04:09,950 --> 00:04:11,550
 Real populations have structure.
 
 54
-00:04:06,837 --> 00:04:12,189
+00:04:11,950 --> 00:04:17,582
 A life table tracks survivorship, lₓ, the proportion of a cohort alive at age x,
 
 55
-00:04:12,189 --> 00:04:16,806
+00:04:17,582 --> 00:04:22,440
 and fecundity, mₓ, the offspring produced per individual at that age.
 
 56
-00:04:17,556 --> 00:04:20,334
+00:04:23,190 --> 00:04:25,740
 Survivorship curves come in three classic types.
 
 57
-00:04:20,654 --> 00:04:25,182
+00:04:26,140 --> 00:04:30,630
 Type I: most individuals survive to old age, as in large mammals.
 
 58
-00:04:25,502 --> 00:04:29,577
+00:04:31,030 --> 00:04:35,180
 Type II: a constant risk of death at every age, as in many birds.
 
 59
-00:04:29,897 --> 00:04:35,133
+00:04:35,580 --> 00:04:40,880
 Type III: massive early mortality, as in oysters, most fish, and trees.
 
 60
-00:04:35,883 --> 00:04:40,236
+00:04:41,630 --> 00:04:46,305
 Summing lₓmₓ across ages gives R₀, the net reproductive rate:
 
 61
-00:04:40,236 --> 00:04:43,304
+00:04:46,305 --> 00:04:49,600
 expected lifetime offspring per individual.
 
 62
-00:04:43,624 --> 00:04:47,585
+00:04:50,000 --> 00:04:53,960
 When R₀ > 1, the population grows each generation.
 
 63
-00:04:48,335 --> 00:04:50,766
+00:04:54,710 --> 00:04:57,010
 Matrix models generalize the life table.
 
 64
-00:04:51,086 --> 00:04:55,391
+00:04:57,410 --> 00:05:01,502
 In a Leslie matrix, organized by age, or a Lefkovitch matrix,
 
 65
-00:04:55,391 --> 00:05:00,754
+00:05:01,502 --> 00:05:06,600
 organized by stage, the dominant eigenvalue is the asymptotic growth rate λ.
 
 66
-00:05:01,074 --> 00:05:04,201
+00:05:07,000 --> 00:05:10,046
 The right eigenvector is the stable stage distribution,
 
 67
-00:05:04,201 --> 00:05:07,100
+00:05:10,046 --> 00:05:12,870
 and the left eigenvector gives reproductive values.
 
 68
-00:05:07,850 --> 00:05:12,497
+00:05:13,620 --> 00:05:18,290
 Sensitivity and elasticity analyses ask which vital rate most affects λ.
 
 69
-00:05:12,817 --> 00:05:17,532
+00:05:18,690 --> 00:05:23,063
 For loggerhead sea turtles, Crouse and colleagues showed in 1987 that λ responds
 
 70
-00:05:17,532 --> 00:05:21,363
+00:05:23,063 --> 00:05:26,616
 far more to the survival of large juveniles than to egg survival,
 
 71
-00:05:21,363 --> 00:05:26,727
+00:05:26,616 --> 00:05:31,590
 shifting conservation from nesting beaches toward turtle excluder devices on shrimp trawls.
 
 72
-00:05:30,127 --> 00:05:31,556
+00:05:34,990 --> 00:05:36,380
 Finally, chance.
 
 73
-00:05:31,876 --> 00:05:36,207
+00:05:36,780 --> 00:05:41,452
 Demographic stochasticity is randomness in the fates of individuals:
 
 74
-00:05:36,207 --> 00:05:38,245
+00:05:41,452 --> 00:05:43,650
 who lives, who dies, who breeds.
 
 75
-00:05:38,565 --> 00:05:40,872
+00:05:44,050 --> 00:05:46,210
 It matters most in small populations.
 
 76
-00:05:41,192 --> 00:05:45,100
+00:05:46,610 --> 00:05:50,488
 Environmental stochasticity is year-to-year variation in vital rates
 
 77
-00:05:45,100 --> 00:05:49,525
+00:05:50,488 --> 00:05:54,880
 that affects all individuals together, and catastrophes are its extreme form.
 
 78
-00:05:50,275 --> 00:05:52,137
+00:05:55,630 --> 00:05:57,500
 Under environmental variation,
 
 79
-00:05:52,137 --> 00:05:56,668
+00:05:57,500 --> 00:06:02,050
 long-run growth follows the geometric mean of λ, not the arithmetic mean.
 
 80
-00:05:56,988 --> 00:06:02,606
+00:06:02,450 --> 00:06:08,327
 Because the geometric mean is always lower, variability itself depresses growth:
 
 81
-00:06:02,606 --> 00:06:06,117
+00:06:08,327 --> 00:06:12,000
 a population averaging λ = 1.05 can still decline.
 
 82
-00:06:06,867 --> 00:06:12,293
+00:06:12,750 --> 00:06:17,755
 Population viability analysis projects these processes forward to estimate extinction risk,
 
 83
-00:06:12,293 --> 00:06:16,527
+00:06:17,755 --> 00:06:21,660
 often as the probability of falling below a quasi-extinction threshold.
 
 84
-00:06:16,847 --> 00:06:21,897
+00:06:22,060 --> 00:06:27,136
 A minimum viable population is the smallest size with an acceptable chance of persistence;
 
 85
-00:06:21,897 --> 00:06:26,050
+00:06:27,136 --> 00:06:31,310
 Shaffer’s classic benchmark was ninety-nine percent over a thousand years.
 
 86
-00:06:26,800 --> 00:06:31,712
+00:06:32,060 --> 00:06:36,980
 Small populations can spiral downward as inbreeding, lost genetic variation,
 
 87
-00:06:31,712 --> 00:06:35,266
+00:06:36,980 --> 00:06:40,540
 Allee effects, and stochasticity reinforce one another.
 
 88
-00:06:35,586 --> 00:06:39,583
+00:06:40,940 --> 00:06:44,770
 Gilpin and Soulé called this the extinction vortex in 1986.
 
 89
-00:06:40,333 --> 00:06:42,021
+00:06:45,520 --> 00:06:47,090
 Life history ties it together.
 
 90
-00:06:42,341 --> 00:06:48,409
+00:06:47,490 --> 00:06:53,924
 MacArthur and Wilson’s r- and K-selection contrasted fast, fecund species favored in uncrowded,
 
 91
-00:06:48,409 --> 00:06:53,839
+00:06:53,924 --> 00:06:59,680
 unpredictable settings with slow, competitive species favored near carrying capacity.
 
 92
-00:06:54,159 --> 00:06:58,657
+00:07:00,080 --> 00:07:04,749
 Today the fast–slow continuum and Grime’s C-S-R triangle of competitors,
 
 93
-00:06:58,657 --> 00:07:02,031
+00:07:04,749 --> 00:07:08,250
 stress-tolerators, and ruderals refine that dichotomy.
 
 94
-00:07:05,231 --> 00:07:06,053
+00:07:11,450 --> 00:07:12,190
 Chapter two.
 
 95
-00:07:06,373 --> 00:07:09,617
+00:07:12,590 --> 00:07:16,530
 Niche theory: what a species needs, and what it does.
 
 96
-00:07:12,317 --> 00:07:16,660
+00:07:19,230 --> 00:07:22,690
 The niche is ecology’s most used, and most argued-over, concept.
 
 97
-00:07:16,980 --> 00:07:21,842
+00:07:23,090 --> 00:07:27,739
 Joseph Grinnell, in 1917, framed it as a species’ habitat requirements:
 
 98
-00:07:21,842 --> 00:07:24,102
+00:07:27,739 --> 00:07:29,900
 the conditions where it can live.
 
 99
-00:07:24,422 --> 00:07:27,403
+00:07:30,300 --> 00:07:33,334
 The niche of his California thrasher was the chaparral
 
 100
-00:07:27,403 --> 00:07:30,053
+00:07:33,334 --> 00:07:36,030
 that met its needs for food, cover, and nesting.
 
 101
-00:07:30,803 --> 00:07:34,411
+00:07:36,780 --> 00:07:40,496
 Charles Elton, in 1927, emphasized function instead:
 
 102
-00:07:34,411 --> 00:07:39,822
+00:07:40,496 --> 00:07:46,070
 a species’ place in the biotic environment, its relations to food and enemies.
 
 103
-00:07:40,142 --> 00:07:45,443
+00:07:46,470 --> 00:07:52,170
 As Eugene Odum later put it, habitat is a species’ address, and the niche is its profession.
 
 104
-00:07:46,193 --> 00:07:50,761
+00:07:52,920 --> 00:07:57,680
 G. Evelyn Hutchinson, in 1957, made the niche quantitative.
 
 105
-00:07:51,081 --> 00:07:57,200
+00:07:58,080 --> 00:08:03,200
 Treat each environmental factor, such as temperature, moisture, or food size, as an axis.
 
 106
-00:07:57,520 --> 00:08:00,630
+00:08:03,600 --> 00:08:06,929
 The set of conditions under which a species can persist
 
 107
-00:08:00,630 --> 00:08:04,022
+00:08:06,929 --> 00:08:10,560
 forms an n-dimensional hypervolume: the Hutchinsonian niche.
 
 108
-00:08:04,772 --> 00:08:05,708
+00:08:11,310 --> 00:08:12,230
 Notice the shift.
 
 109
-00:08:06,028 --> 00:08:08,437
+00:08:12,630 --> 00:08:15,095
 Grinnell and Elton described niches as places
 
 110
-00:08:08,437 --> 00:08:12,078
+00:08:15,095 --> 00:08:18,820
 or roles in the environment and the community, waiting to be filled.
 
 111
-00:08:12,398 --> 00:08:15,506
+00:08:19,220 --> 00:08:22,060
 Hutchinson made the niche a property of the species itself.
 
 112
-00:08:17,906 --> 00:08:22,283
+00:08:24,460 --> 00:08:28,686
 Hutchinson distinguished the fundamental niche, the full range of conditions
 
 113
-00:08:22,283 --> 00:08:27,640
+00:08:28,686 --> 00:08:33,857
 where a species could persist on its physiological tolerances alone, from the realized niche,
 
 114
-00:08:27,640 --> 00:08:33,111
+00:08:33,857 --> 00:08:39,140
 the narrower range it actually occupies once competitors, predators, and pathogens are present.
 
 115
-00:08:33,861 --> 00:08:37,559
+00:08:39,890 --> 00:08:43,171
 Joseph Connell’s experiments on the Isle of Cumbrae,
 
 116
-00:08:37,559 --> 00:08:40,972
+00:08:43,171 --> 00:08:46,200
 in Scotland, published in 1961, made this vivid.
 
 117
-00:08:41,292 --> 00:08:43,173
+00:08:46,600 --> 00:08:48,540
 Two barnacles share the rocky shore.
 
 118
-00:08:43,493 --> 00:08:46,337
+00:08:48,940 --> 00:08:51,584
 Chthamalus lives high in the intertidal zone,
 
 119
-00:08:46,337 --> 00:08:49,624
+00:08:51,584 --> 00:08:54,640
 and Balanus, now called Semibalanus, lives below it.
 
 120
-00:08:50,374 --> 00:08:54,904
+00:08:55,390 --> 00:08:59,970
 When Connell removed Balanus, Chthamalus survived and thrived far lower on the shore.
 
 121
-00:08:55,224 --> 00:08:57,286
+00:09:00,370 --> 00:09:02,325
 Its fundamental niche extended deep,
 
 122
-00:08:57,286 --> 00:09:01,467
+00:09:02,325 --> 00:09:06,290
 but there the faster-growing Balanus smothered, undercut, and crushed it.
 
 123
-00:09:01,787 --> 00:09:05,773
+00:09:06,690 --> 00:09:10,480
 Meanwhile, desiccation at low tide set the upper limit of Balanus.
 
 124
-00:09:06,523 --> 00:09:08,391
+00:09:11,230 --> 00:09:13,130
 This yields a widely observed rule.
 
 125
-00:09:08,711 --> 00:09:13,302
+00:09:13,530 --> 00:09:17,983
 Physical stress tends to set a species’ range limit on the harsh side of a gradient,
 
 126
-00:09:13,302 --> 00:09:16,526
+00:09:17,983 --> 00:09:21,110
 while biotic interactions set the limit on the benign side.
 
 127
-00:09:19,726 --> 00:09:26,259
+00:09:24,310 --> 00:09:30,290
 Hutchinson’s 1959 essay, Homage to Santa Rosalia, asked why there are so many kinds of animals.
 
 128
-00:09:26,579 --> 00:09:28,392
+00:09:30,690 --> 00:09:32,470
 One answer is niche partitioning.
 
 129
-00:09:28,712 --> 00:09:33,667
+00:09:32,870 --> 00:09:37,542
 In 1958, Robert MacArthur showed that five species of warbler coexist in the same
 
 130
-00:09:33,667 --> 00:09:38,438
+00:09:37,542 --> 00:09:42,040
 spruce forests by foraging in different parts of the trees, in different ways.
 
 131
-00:09:39,188 --> 00:09:43,969
+00:09:42,790 --> 00:09:47,780
 Picture each species as a resource utilization curve along an axis such as prey size.
 
 132
-00:09:44,289 --> 00:09:49,592
+00:09:48,180 --> 00:09:53,900
 Each curve has a width, w, and neighboring curves are separated by a distance, d.
 
 133
-00:09:49,912 --> 00:09:53,521
+00:09:54,300 --> 00:09:57,500
 The overlap between curves measures the potential for competition.
 
 134
-00:09:54,271 --> 00:09:58,389
+00:09:58,250 --> 00:10:02,388
 MacArthur and Levins argued in 1967 for limiting similarity:
 
 135
-00:09:58,389 --> 00:10:04,155
+00:10:02,388 --> 00:10:08,180
 a maximum overlap compatible with coexistence, reached roughly when d falls below w.
 
 136
-00:10:04,475 --> 00:10:08,404
+00:10:08,580 --> 00:10:12,336
 Hutchinson had noticed that coexisting congeners often differ in body
 
 137
-00:10:08,404 --> 00:10:13,586
+00:10:12,336 --> 00:10:17,290
 or bill size by a ratio of about 1.3, though that pattern proved weaker than first thought.
 
 138
-00:10:14,336 --> 00:10:19,910
+00:10:18,040 --> 00:10:23,690
 Where competitors meet, natural selection can push their traits apart: character displacement.
 
 139
-00:10:20,230 --> 00:10:26,005
+00:10:24,090 --> 00:10:30,160
 In the Galápagos, the ground finches Geospiza fortis and G. fuliginosa have distinct beak depths
 
 140
-00:10:26,005 --> 00:10:31,419
+00:10:30,160 --> 00:10:35,850
 where they co-occur, but converge on intermediate beaks on islands where each lives alone.
 
 141
-00:10:32,969 --> 00:10:36,933
+00:10:37,400 --> 00:10:41,399
 Present-day partitioning may therefore be the ghost of competition past,
 
 142
-00:10:36,933 --> 00:10:41,117
+00:10:41,399 --> 00:10:45,620
 Connell’s phrase for patterns shaped by competition that no longer operates.
 
 143
-00:10:41,437 --> 00:10:45,207
+00:10:46,020 --> 00:10:49,320
 A lack of competition today does not mean competition never mattered.
 
 144
-00:10:47,607 --> 00:10:53,676
+00:10:51,720 --> 00:10:57,040
 In 2003, Jonathan Chase and Mathew Leibold reunited the Grinnellian and Eltonian traditions.
 
 145
-00:10:53,996 --> 00:10:59,257
+00:10:57,440 --> 00:11:02,459
 A species’ niche has two halves: its requirements, the conditions under which its per-capita
 
 146
-00:10:59,257 --> 00:11:04,175
+00:11:02,459 --> 00:11:07,150
 growth rate is at least zero, and its impacts, the effects it has on those conditions.
 
 147
-00:11:04,925 --> 00:11:10,922
+00:11:07,900 --> 00:11:14,530
 On a graph of two resources, requirements become a zero net growth isocline, or ZNGI.
 
 148
-00:11:11,242 --> 00:11:14,802
+00:11:14,930 --> 00:11:18,690
 Above the line the population grows; below it, it shrinks.
 
 149
-00:11:15,122 --> 00:11:20,030
+00:11:19,090 --> 00:11:23,720
 Impacts become consumption vectors, showing how the species depletes each resource.
 
 150
-00:11:20,350 --> 00:11:25,703
+00:11:24,120 --> 00:11:29,330
 Tilman’s resource competition theory, coming next, is built from exactly these pieces.
 
 151
-00:11:26,453 --> 00:11:29,935
+00:11:30,080 --> 00:11:33,635
 The Grinnellian niche lives on in species distribution models,
 
 152
-00:11:29,935 --> 00:11:34,034
+00:11:33,635 --> 00:11:37,820
 which relate occurrences to environmental layers to map suitable habitat.
 
 153
-00:11:34,354 --> 00:11:38,823
+00:11:38,220 --> 00:11:42,693
 Soberón and Peterson’s BAM diagram clarifies what such models estimate:
 
 154
-00:11:38,823 --> 00:11:42,032
+00:11:42,693 --> 00:11:45,907
 a species occurs where suitable abiotic conditions,
 
 155
-00:11:42,032 --> 00:11:46,501
+00:11:45,907 --> 00:11:50,380
 favorable biotic interactions, and access through movement all overlap.
 
 156
-00:11:47,251 --> 00:11:50,457
+00:11:51,130 --> 00:11:53,780
 Finally, organisms reshape their own environments.
 
 157
-00:11:50,777 --> 00:11:53,614
+00:11:54,180 --> 00:11:56,940
 Beavers flood valleys; earthworms remake soils.
 
 158
-00:11:53,934 --> 00:11:56,601
+00:11:57,340 --> 00:11:59,772
 This niche construction can alter natural selection
 
 159
-00:11:56,601 --> 00:11:59,111
+00:11:59,772 --> 00:12:02,060
 on the constructors and on everyone around them.
 
 160
-00:12:02,111 --> 00:12:02,968
+00:12:05,060 --> 00:12:05,820
 Chapter three.
 
 161
-00:12:03,288 --> 00:12:07,630
+00:12:06,220 --> 00:12:10,760
 Competition: what happens when organisms need the same limited resources.
 
 162
-00:12:10,330 --> 00:12:14,075
+00:12:13,460 --> 00:12:16,947
 Competition is a mutually negative interaction, minus–minus,
 
 163
-00:12:14,075 --> 00:12:17,632
+00:12:16,947 --> 00:12:20,260
 between organisms that require the same limited resource.
 
 164
-00:12:17,952 --> 00:12:23,197
+00:12:20,660 --> 00:12:26,040
 Intraspecific competition occurs among members of one species and drives density dependence.
 
 165
-00:12:23,517 --> 00:12:26,591
+00:12:26,440 --> 00:12:29,330
 Interspecific competition occurs between species.
 
 166
-00:12:27,341 --> 00:12:30,867
+00:12:30,080 --> 00:12:33,509
 By mechanism, exploitative competition is indirect:
 
 167
-00:12:30,867 --> 00:12:35,844
+00:12:33,509 --> 00:12:38,350
 individuals deplete a shared resource, such as water, nitrogen, or prey.
 
 168
-00:12:36,164 --> 00:12:41,451
+00:12:38,750 --> 00:12:44,437
 Interference competition is direct: individuals prevent others from using a resource,
 
 169
-00:12:41,451 --> 00:12:44,810
+00:12:44,437 --> 00:12:48,050
 through aggression, territoriality, or chemical means.
 
 170
-00:12:45,560 --> 00:12:51,721
+00:12:48,800 --> 00:12:54,376
 Thomas Schoener, in 1983, listed six mechanisms: consumptive competition for resources;
 
 171
-00:12:51,721 --> 00:12:58,095
+00:12:54,376 --> 00:13:00,143
 preemptive, occupying space first; overgrowth, as when plants or corals shade one another;
 
 172
-00:12:58,095 --> 00:13:03,831
+00:13:00,143 --> 00:13:05,334
 chemical, or allelopathy, like the juglone released by black walnut; territorial;
 
 173
-00:13:03,831 --> 00:13:06,876
+00:13:05,334 --> 00:13:08,090
 and encounter, such as fights at a carcass.
 
 174
-00:13:07,626 --> 00:13:12,011
+00:13:08,840 --> 00:13:14,331
 A. J. Nicholson contrasted scramble competition, where resources are divided
 
 175
-00:13:12,011 --> 00:13:16,281
+00:13:14,331 --> 00:13:19,677
 so evenly that every individual gets too little, with contest competition,
 
 176
-00:13:16,281 --> 00:13:19,685
+00:13:19,677 --> 00:13:23,940
 where winners secure what they need and losers get nothing.
 
 177
-00:13:20,005 --> 00:13:25,529
+00:13:24,340 --> 00:13:30,088
 Competition is also often asymmetric: in plants, competition for light is size-asymmetric,
 
 178
-00:13:25,529 --> 00:13:29,212
+00:13:30,088 --> 00:13:33,920
 because taller plants shade shorter ones disproportionately.
 
 179
-00:13:29,962 --> 00:13:34,879
+00:13:34,670 --> 00:13:39,310
 And beware apparent competition, described by Robert Holt in 1977.
 
 180
-00:13:35,199 --> 00:13:37,951
+00:13:39,710 --> 00:13:42,729
 Two prey species that never share a resource can still
 
 181
-00:13:37,951 --> 00:13:40,551
+00:13:42,729 --> 00:13:45,580
 depress each other by sustaining a shared predator.
 
 182
-00:13:40,871 --> 00:13:45,930
+00:13:45,980 --> 00:13:50,750
 In field data it looks just like competition, but it is mediated by a natural enemy.
 
 183
-00:13:49,130 --> 00:13:52,602
+00:13:53,950 --> 00:13:57,130
 The Lotka–Volterra competition model extends the logistic.
 
 184
-00:13:52,922 --> 00:13:57,741
+00:13:57,530 --> 00:14:02,481
 Each species’ growth is slowed by its own density and by the density of its competitor,
 
 185
-00:13:57,741 --> 00:13:59,735
+00:14:02,481 --> 00:14:04,530
 scaled by a competition coefficient.
 
 186
-00:14:00,055 --> 00:14:03,850
+00:14:04,930 --> 00:14:08,923
 α₁₂ is the per-capita effect of species two on species one,
 
 187
-00:14:03,850 --> 00:14:07,516
+00:14:08,923 --> 00:14:12,780
 measured relative to the effect of species one on itself.
 
 188
-00:14:08,266 --> 00:14:10,250
+00:14:13,530 --> 00:14:15,490
 Plot both species in a phase plane.
 
 189
-00:14:10,570 --> 00:14:12,849
+00:14:15,890 --> 00:14:18,176
 Each species has a zero-growth isocline,
 
 190
-00:14:12,849 --> 00:14:16,779
+00:14:18,176 --> 00:14:22,120
 a straight line along which its population neither grows nor shrinks.
 
 191
-00:14:17,099 --> 00:14:20,798
+00:14:22,520 --> 00:14:26,076
 How the two lines sit relative to each other determines the outcome,
 
 192
-00:14:20,798 --> 00:14:23,028
+00:14:26,076 --> 00:14:28,220
 and there are exactly four possibilities.
 
 193
-00:14:23,778 --> 00:14:29,429
+00:14:28,970 --> 00:14:34,300
 If species one’s isocline lies entirely outside species two’s, species one always wins.
 
 194
-00:14:29,749 --> 00:14:31,939
+00:14:34,700 --> 00:14:36,950
 Reverse them, and species two wins.
 
 195
-00:14:32,259 --> 00:14:34,357
+00:14:37,350 --> 00:14:39,390
 Either way, the loser is excluded.
 
 196
-00:14:34,677 --> 00:14:38,585
+00:14:39,790 --> 00:14:43,709
 Georgii Gause saw this in his Paramecium cultures in the 1930s,
 
 197
-00:14:38,585 --> 00:14:43,982
+00:14:43,709 --> 00:14:49,120
 which gave us the competitive exclusion principle: complete competitors cannot coexist.
 
 198
-00:14:45,232 --> 00:14:50,798
+00:14:50,370 --> 00:14:56,207
 If the isoclines cross, and each species limits itself more than it limits its competitor,
 
 199
-00:14:50,798 --> 00:14:53,890
+00:14:56,207 --> 00:14:59,450
 the crossing is a stable equilibrium: coexistence.
 
 200
-00:14:54,210 --> 00:14:59,188
+00:14:59,850 --> 00:15:05,010
 If instead each limits its competitor more than itself, the crossing is an unstable saddle.
 
 201
-00:14:59,508 --> 00:15:05,338
+00:15:05,410 --> 00:15:11,000
 One species still wins, but which one depends on who starts ahead, a classic priority effect.
 
 202
-00:15:06,588 --> 00:15:10,354
+00:15:12,250 --> 00:15:16,077
 The rule to remember: stable coexistence requires intraspecific
 
 203
-00:15:10,354 --> 00:15:13,822
+00:15:16,077 --> 00:15:19,600
 competition to be stronger than interspecific competition.
 
 204
-00:15:14,142 --> 00:15:17,186
+00:15:20,000 --> 00:15:22,980
 Species must limit themselves more than they limit each other.
 
 205
-00:15:20,586 --> 00:15:25,118
+00:15:26,380 --> 00:15:30,680
 Lotka–Volterra describes the outcome of competition, but not its mechanism.
 
 206
-00:15:25,438 --> 00:15:29,497
+00:15:31,080 --> 00:15:34,870
 David Tilman’s resource competition theory makes the mechanism explicit.
 
 207
-00:15:29,817 --> 00:15:33,194
+00:15:35,270 --> 00:15:38,584
 For a single limiting resource, each species has an R*,
 
 208
-00:15:33,194 --> 00:15:37,307
+00:15:38,584 --> 00:15:42,620
 the resource level at which its growth exactly balances its losses.
 
 209
-00:15:38,057 --> 00:15:41,746
+00:15:43,370 --> 00:15:46,980
 A consumer draws the resource down until it reaches its own R*.
 
 210
-00:15:42,066 --> 00:15:46,595
+00:15:47,380 --> 00:15:52,178
 So when species compete for one resource, the species with the lowest R* wins:
 
 211
-00:15:46,595 --> 00:15:50,892
+00:15:52,178 --> 00:15:56,730
 it depresses the resource below the level its competitor needs to persist.
 
 212
-00:15:51,212 --> 00:15:56,609
+00:15:57,130 --> 00:16:02,050
 This R* rule has held up in experiments with algae, bacteria, and grassland plants.
 
 213
-00:15:57,859 --> 00:16:02,993
+00:16:03,300 --> 00:16:08,119
 With two essential resources, each species’ zero net growth isocline is L-shaped,
 
 214
-00:16:02,993 --> 00:16:05,338
+00:16:08,119 --> 00:16:10,320
 and two species’ isoclines can cross.
 
 215
-00:16:05,658 --> 00:16:09,977
+00:16:10,720 --> 00:16:14,994
 They coexist stably when each species is more limited by a different resource,
 
 216
-00:16:09,977 --> 00:16:13,853
+00:16:14,994 --> 00:16:18,830
 and each consumes relatively more of the resource that limits it most.
 
 217
-00:16:14,603 --> 00:16:17,213
+00:16:19,580 --> 00:16:22,149
 Which outcome occurs depends on the supply point,
 
 218
-00:16:17,213 --> 00:16:19,876
+00:16:22,149 --> 00:16:24,770
 the rates at which the two resources are supplied.
 
 219
-00:16:20,196 --> 00:16:24,904
+00:16:25,170 --> 00:16:29,974
 That is Tilman’s resource-ratio hypothesis: shifting the ratio of nutrients,
 
 220
-00:16:24,904 --> 00:16:28,682
+00:16:29,974 --> 00:16:33,830
 by fertilization for instance, can reorder which species win.
 
 221
-00:16:32,082 --> 00:16:37,560
+00:16:37,230 --> 00:16:42,560
 Peter Chesson’s modern coexistence theory, published in 2000, reorganized all of this.
 
 222
-00:16:37,880 --> 00:16:40,737
+00:16:42,960 --> 00:16:45,874
 Its test for coexistence is mutual invasibility:
 
 223
-00:16:40,737 --> 00:16:46,271
+00:16:45,874 --> 00:16:51,520
 each species must be able to increase when rare, invading a community dominated by the other.
 
 224
-00:16:47,021 --> 00:16:48,860
+00:16:52,270 --> 00:16:54,090
 Mechanisms come in two kinds.
 
 225
-00:16:49,180 --> 00:16:55,172
+00:16:54,490 --> 00:17:00,032
 Stabilizing mechanisms, or niche differences, cause species to limit themselves more than each other,
 
 226
-00:16:55,172 --> 00:16:58,435
+00:17:00,032 --> 00:17:03,050
 so any species gains an advantage when it becomes rare.
 
 227
-00:16:58,755 --> 00:17:02,051
+00:17:03,450 --> 00:17:06,694
 Equalizing mechanisms shrink average fitness differences,
 
 228
-00:17:02,051 --> 00:17:05,694
+00:17:06,694 --> 00:17:10,280
 the inherent competitive advantage of one species over another.
 
 229
-00:17:06,444 --> 00:17:10,498
+00:17:11,030 --> 00:17:14,770
 Species coexist when niche differences overcome fitness differences.
 
 230
-00:17:10,818 --> 00:17:15,120
+00:17:15,170 --> 00:17:19,400
 On this plane, the zone of coexistence widens as niche differences grow.
 
 231
-00:17:15,440 --> 00:17:19,157
+00:17:19,800 --> 00:17:23,436
 Equalizing mechanisms alone can never produce stable coexistence,
 
 232
-00:17:19,157 --> 00:17:21,787
+00:17:23,436 --> 00:17:26,010
 but they reduce the niche difference required.
 
 233
-00:17:23,037 --> 00:17:27,600
+00:17:27,260 --> 00:17:31,782
 Stabilizing mechanisms include resource partitioning and Janzen–Connell effects,
 
 234
-00:17:27,600 --> 00:17:31,422
+00:17:31,782 --> 00:17:35,570
 where specialist natural enemies kill seedlings near their parents.
 
 235
-00:17:31,742 --> 00:17:33,698
+00:17:35,970 --> 00:17:37,710
 Others depend on fluctuations.
 
 236
-00:17:34,018 --> 00:17:38,968
+00:17:38,110 --> 00:17:42,795
 The storage effect operates when species respond differently to a variable environment
 
 237
-00:17:38,968 --> 00:17:43,284
+00:17:42,795 --> 00:17:46,880
 and can store gains, in seed banks or long-lived adults, through bad years.
 
 238
-00:17:43,604 --> 00:17:49,183
+00:17:47,280 --> 00:17:52,790
 Relative nonlinearity operates when species respond nonlinearly to fluctuating resources.
 
 239
-00:17:49,933 --> 00:17:54,438
+00:17:53,540 --> 00:17:57,906
 Together these ideas resolve Hutchinson’s 1961 paradox of the plankton:
 
 240
-00:17:54,438 --> 00:18:00,974
+00:17:57,906 --> 00:18:04,240
 how dozens of phytoplankton species coexist on a handful of resources in an apparently well-mixed lake.
 
 241
-00:18:01,294 --> 00:18:03,432
+00:18:04,640 --> 00:18:06,714
 Variation in time, natural enemies,
 
 242
-00:18:03,432 --> 00:18:07,951
+00:18:06,714 --> 00:18:11,100
 and hidden spatial structure keep the system from ever reaching exclusion.
 
 243
-00:18:11,151 --> 00:18:11,962
+00:18:14,300 --> 00:18:15,000
 Chapter four.
 
 244
-00:18:12,282 --> 00:18:15,147
+00:18:15,400 --> 00:18:18,290
 Predation: the dynamics of eating and being eaten.
 
 245
-00:18:17,847 --> 00:18:22,734
+00:18:20,990 --> 00:18:25,931
 Predation is a plus–minus interaction, and the term spans true predators,
 
 246
-00:18:22,734 --> 00:18:25,345
+00:18:25,931 --> 00:18:28,570
 herbivores, parasitoids, and parasites.
 
 247
-00:18:25,665 --> 00:18:28,957
+00:18:28,970 --> 00:18:32,271
 Its simplest model, from Lotka and Volterra in the 1920s,
 
 248
-00:18:28,957 --> 00:18:32,307
+00:18:32,271 --> 00:18:35,630
 gives prey exponential growth in the absence of predators,
 
 249
-00:18:32,307 --> 00:18:37,562
+00:18:35,630 --> 00:18:40,900
 and lets predators convert captured prey into new predators while dying at a constant rate.
 
 250
-00:18:38,312 --> 00:18:40,658
+00:18:41,650 --> 00:18:44,010
 The model’s signature is coupled oscillation.
 
 251
-00:18:40,978 --> 00:18:45,406
+00:18:44,410 --> 00:18:49,072
 Prey increase, then predators increase; prey crash, and predators follow,
 
 252
-00:18:45,406 --> 00:18:49,289
+00:18:49,072 --> 00:18:53,160
 with predator peaks lagging prey peaks by about a quarter cycle.
 
 253
-00:18:50,039 --> 00:18:54,668
+00:18:53,910 --> 00:18:58,200
 In the phase plane, the two populations circle their equilibrium in closed loops.
 
 254
-00:18:54,988 --> 00:18:59,381
+00:18:58,600 --> 00:19:02,762
 These neutral cycles have an amplitude set entirely by the starting conditions,
 
 255
-00:18:59,381 --> 00:19:02,439
+00:19:02,762 --> 00:19:05,660
 and any disturbance shifts the system onto a new cycle.
 
 256
-00:19:02,759 --> 00:19:06,847
+00:19:06,060 --> 00:19:10,320
 The model is structurally unstable, better for intuition than for prediction.
 
 257
-00:19:07,597 --> 00:19:09,191
+00:19:11,070 --> 00:19:12,550
 Yet real cycles exist.
 
 258
-00:19:09,511 --> 00:19:11,473
+00:19:12,950 --> 00:19:14,824
 Snowshoe hares and Canada lynx,
 
 259
-00:19:11,473 --> 00:19:16,282
+00:19:14,824 --> 00:19:19,420
 recorded in Hudson’s Bay Company fur returns, cycle roughly every ten years.
 
 260
-00:19:16,602 --> 00:19:20,007
+00:19:19,820 --> 00:19:23,180
 Experiments by Charles Krebs and colleagues in the Yukon showed
 
 261
-00:19:20,007 --> 00:19:23,628
+00:19:23,180 --> 00:19:26,753
 that the hare cycle arises from food and predation acting together,
 
 262
-00:19:23,628 --> 00:19:27,628
+00:19:26,753 --> 00:19:30,700
 with predation risk also causing stress that suppresses hare reproduction.
 
 263
-00:19:30,828 --> 00:19:36,479
+00:19:33,900 --> 00:19:39,200
 In 1959, C. S. Holling asked how a predator’s feeding rate changes with prey density.
 
 264
-00:19:36,799 --> 00:19:40,640
+00:19:39,600 --> 00:19:43,120
 The answer is its functional response, and it comes in three types.
 
 265
-00:19:41,390 --> 00:19:47,099
+00:19:43,870 --> 00:19:49,620
 A Type I response rises linearly until the predator is satiated, typical of filter feeders.
 
 266
-00:19:47,419 --> 00:19:52,071
+00:19:50,020 --> 00:19:54,120
 A Type II response decelerates, because each capture costs handling time.
 
 267
-00:19:52,391 --> 00:19:55,805
+00:19:54,520 --> 00:19:58,082
 Holling’s disc equation gives intake as aN / (1 + ahN),
 
 268
-00:19:55,805 --> 00:19:59,156
+00:19:58,082 --> 00:20:01,580
 where a is the attack rate and h is the handling time.
 
 269
-00:19:59,476 --> 00:20:01,575
+00:20:01,980 --> 00:20:04,060
 Intake saturates at 1/h.
 
 270
-00:20:02,325 --> 00:20:07,552
+00:20:04,810 --> 00:20:10,085
 A Type III response is sigmoid: predators take few prey at low density, then accelerate,
 
 271
-00:20:07,552 --> 00:20:13,432
+00:20:10,085 --> 00:20:16,020
 through learning a search image, switching between prey types, or because scarce prey find refuges.
 
 272
-00:20:14,182 --> 00:20:15,843
+00:20:16,770 --> 00:20:18,380
 The type matters for stability.
 
 273
-00:20:16,163 --> 00:20:20,469
+00:20:18,780 --> 00:20:22,874
 With Type II, per-capita risk to prey falls as prey become more numerous,
 
 274
-00:20:20,469 --> 00:20:23,537
+00:20:22,874 --> 00:20:25,790
 an inverse density dependence that is destabilizing.
 
 275
-00:20:23,857 --> 00:20:27,529
+00:20:26,190 --> 00:20:29,914
 With Type III, risk rises with prey density at low densities,
 
 276
-00:20:27,529 --> 00:20:30,779
+00:20:29,914 --> 00:20:33,210
 which can regulate prey and stabilize the interaction.
 
 277
-00:20:31,529 --> 00:20:34,737
+00:20:33,960 --> 00:20:36,928
 The numerical response is the change in predator numbers,
 
 278
-00:20:34,737 --> 00:20:37,776
+00:20:36,928 --> 00:20:39,740
 through reproduction or immigration, as prey increase.
 
 279
-00:20:38,096 --> 00:20:42,441
+00:20:40,140 --> 00:20:44,499
 Multiply the functional and numerical responses to get the total response:
 
 280
-00:20:42,441 --> 00:20:45,612
+00:20:44,499 --> 00:20:47,680
 the overall predation pressure on the prey population.
 
 281
-00:20:48,812 --> 00:20:51,809
+00:20:50,880 --> 00:20:53,430
 From the predator’s side, these choices are decisions.
 
 282
-00:20:52,129 --> 00:20:56,119
+00:20:53,830 --> 00:20:57,445
 Optimal foraging theory assumes that natural selection favors foragers
 
 283
-00:20:56,119 --> 00:20:58,741
+00:20:57,445 --> 00:20:59,820
 that maximize their net rate of energy intake.
 
 284
-00:20:59,491 --> 00:21:03,444
+00:21:00,570 --> 00:21:04,293
 In the classic diet model, prey types are ranked by profitability:
 
 285
-00:21:03,444 --> 00:21:05,839
+00:21:04,293 --> 00:21:06,550
 energy gained per unit of handling time.
 
 286
-00:21:06,159 --> 00:21:09,064
+00:21:06,950 --> 00:21:09,793
 A forager should always take the most profitable prey,
 
 287
-00:21:09,064 --> 00:21:12,239
+00:21:09,793 --> 00:21:12,900
 and add lower-ranked prey only when better prey are scarce.
 
 288
-00:21:12,559 --> 00:21:16,047
+00:21:13,300 --> 00:21:16,679
 Whether to eat a poor item depends on the abundance of good items,
 
 289
-00:21:16,047 --> 00:21:17,844
+00:21:16,679 --> 00:21:18,420
 not on the abundance of poor ones.
 
 290
-00:21:18,594 --> 00:21:23,100
+00:21:19,170 --> 00:21:23,650
 For patchy food, Eric Charnov’s marginal value theorem predicts when to leave.
 
 291
-00:21:23,420 --> 00:21:28,723
+00:21:24,050 --> 00:21:28,970
 Gains within a patch diminish as it is depleted, so a forager should leave when its instantaneous
 
 292
-00:21:28,723 --> 00:21:33,261
+00:21:28,970 --> 00:21:33,180
 intake rate falls to the average rate for the whole habitat, including travel time.
 
 293
-00:21:33,581 --> 00:21:37,970
+00:21:33,580 --> 00:21:37,400
 The longer the travel between patches, the longer a forager should stay in each.
 
 294
-00:21:41,370 --> 00:21:46,330
+00:21:40,800 --> 00:21:45,867
 Add two realistic ingredients, prey self-limitation and a Type II functional response,
 
 295
-00:21:46,330 --> 00:21:48,867
+00:21:45,867 --> 00:21:48,460
 and you have the Rosenzweig–MacArthur model.
 
 296
-00:21:49,187 --> 00:21:51,138
+00:21:48,860 --> 00:21:50,610
 The prey isocline becomes a hump.
 
 297
-00:21:51,458 --> 00:21:54,648
+00:21:51,010 --> 00:21:54,028
 The predator isocline is a vertical line at the prey density
 
 298
-00:21:54,648 --> 00:21:56,775
+00:21:54,028 --> 00:21:56,040
 where predators just replace themselves.
 
 299
-00:21:57,525 --> 00:22:00,841
+00:21:56,790 --> 00:22:00,009
 If the predator isocline crosses to the right of the hump,
 
 300
-00:22:00,841 --> 00:22:03,757
+00:22:00,009 --> 00:22:02,840
 trajectories spiral inward to a stable equilibrium.
 
 301
-00:22:04,077 --> 00:22:08,439
+00:22:03,240 --> 00:22:07,430
 If it crosses to the left, they spiral outward onto a stable limit cycle.
 
 302
-00:22:09,189 --> 00:22:12,505
+00:22:08,180 --> 00:22:11,530
 Now enrich the system by raising the prey’s carrying capacity.
 
 303
-00:22:12,825 --> 00:22:15,720
+00:22:11,930 --> 00:22:14,658
 The hump shifts right, past the predator isocline,
 
 304
-00:22:15,720 --> 00:22:21,568
+00:22:14,658 --> 00:22:20,170
 and stable coexistence gives way to ever-larger cycles that can drive both species toward extinction.
 
 305
-00:22:21,888 --> 00:22:26,211
+00:22:20,570 --> 00:22:24,540
 Michael Rosenzweig called this the paradox of enrichment in 1971.
 
 306
-00:22:27,761 --> 00:22:30,483
+00:22:26,090 --> 00:22:28,794
 Host–parasitoid systems have their own classic,
 
 307
-00:22:30,483 --> 00:22:34,305
+00:22:28,794 --> 00:22:32,590
 the Nicholson–Bailey model, whose oscillations grow without bound.
 
 308
-00:22:34,625 --> 00:22:39,954
+00:22:32,990 --> 00:22:38,142
 Persistence returns with aggregated attacks, prey refuges, or spatial structure,
 
 309
-00:22:39,954 --> 00:22:43,951
+00:22:38,142 --> 00:22:42,007
 echoing Carl Huffaker’s 1958 experiments, in which predatory
 
 310
-00:22:43,951 --> 00:22:49,147
+00:22:42,007 --> 00:22:47,030
 and herbivorous mites persisted only in a complex, patchy universe of oranges.
 
 311
-00:22:52,547 --> 00:22:54,983
+00:22:50,430 --> 00:22:52,690
 Predators can structure entire communities.
 
 312
-00:22:55,303 --> 00:23:01,163
+00:22:53,090 --> 00:22:58,540
 In 1966, Robert Paine removed the sea star Pisaster from rocky shores in Washington.
 
 313
-00:23:01,483 --> 00:23:03,683
+00:22:58,940 --> 00:23:01,091
 Without it, mussels monopolized the space
 
 314
-00:23:03,683 --> 00:23:06,687
+00:23:01,091 --> 00:23:04,030
 and the community dropped from fifteen species to eight.
 
 315
-00:23:07,007 --> 00:23:09,008
+00:23:04,430 --> 00:23:06,463
 Paine called such species keystones:
 
 316
-00:23:09,008 --> 00:23:12,844
+00:23:06,463 --> 00:23:10,360
 their impact is disproportionately large relative to their abundance.
 
 317
-00:23:13,594 --> 00:23:15,877
+00:23:11,110 --> 00:23:13,170
 Effects can cascade down food chains.
 
 318
-00:23:16,197 --> 00:23:20,580
+00:23:13,570 --> 00:23:17,834
 Hairston, Smith, and Slobodkin’s 1960 green world hypothesis argued
 
 319
-00:23:20,580 --> 00:23:24,832
+00:23:17,834 --> 00:23:21,970
 that predators hold herbivores in check, keeping the world green.
 
 320
-00:23:25,152 --> 00:23:29,291
+00:23:22,370 --> 00:23:26,510
 In the Aleutian Islands, sea otters eat sea urchins, which graze kelp.
 
 321
-00:23:29,611 --> 00:23:35,325
+00:23:26,910 --> 00:23:32,540
 When killer whales began eating otters in the 1990s, urchins boomed and kelp forests collapsed.
 
 322
-00:23:36,075 --> 00:23:40,428
+00:23:33,290 --> 00:23:37,663
 This alternating pattern of effects down a food chain is a trophic cascade,
 
 323
-00:23:40,428 --> 00:23:45,652
+00:23:37,663 --> 00:23:42,910
 a form of top-down control, as opposed to bottom-up control by resources and productivity.
 
 324
-00:23:45,972 --> 00:23:50,836
+00:23:43,310 --> 00:23:48,329
 When top predators disappear, smaller predators can surge: mesopredator release,
 
 325
-00:23:50,836 --> 00:23:57,525
+00:23:48,329 --> 00:23:55,230
 as when the loss of coyotes from fragmented scrub let foxes and house cats increase, and scrub birds declined.
 
 326
-00:23:58,275 --> 00:24:00,328
+00:23:55,980 --> 00:23:58,020
 Predators also matter without killing.
 
 327
-00:24:00,648 --> 00:24:06,324
+00:23:58,420 --> 00:24:04,270
 Prey alter foraging, vigilance, habitat use, and physiology in response to risk.
 
 328
-00:24:06,644 --> 00:24:09,870
+00:24:04,670 --> 00:24:07,660
 These non-consumptive effects make up the ecology of fear.
 
 329
-00:24:10,190 --> 00:24:14,556
+00:24:08,060 --> 00:24:12,405
 In a 2011 experiment, Liana Zanette and colleagues found that broadcasting
 
 330
-00:24:14,556 --> 00:24:19,393
+00:24:12,405 --> 00:24:17,220
 predator calls alone cut song sparrow offspring production by about forty percent.
 
 331
-00:24:19,713 --> 00:24:23,291
+00:24:17,620 --> 00:24:21,100
 Spatial variation in perceived risk forms a landscape of fear.
 
 332
-00:24:26,491 --> 00:24:27,360
+00:24:24,300 --> 00:24:25,040
 Chapter five.
 
 333
-00:24:27,680 --> 00:24:32,285
+00:24:25,440 --> 00:24:30,440
 Island biogeography: species richness as a balance of arrivals and losses.
 
 334
-00:24:34,985 --> 00:24:39,822
+00:24:33,140 --> 00:24:38,090
 Islands are natural experiments: replicated, bounded, and easy to count.
 
 335
-00:24:40,142 --> 00:24:45,369
+00:24:38,490 --> 00:24:43,670
 One of ecology’s oldest generalizations comes from them, the species–area relationship.
 
 336
-00:24:45,689 --> 00:24:47,690
+00:24:44,070 --> 00:24:46,090
 Larger areas hold more species.
 
 337
-00:24:48,440 --> 00:24:52,524
+00:24:46,840 --> 00:24:51,480
 It is usually written as a power law, S = cA^z.
 
 338
-00:24:52,844 --> 00:24:59,189
+00:24:51,880 --> 00:24:58,690
 On log–log axes this becomes a straight line, log S = log c + z log A, with slope z.
 
 339
-00:24:59,939 --> 00:25:05,269
+00:24:59,440 --> 00:25:04,300
 For true islands, z usually falls between about 0.2 and 0.35.
 
 340
-00:25:05,589 --> 00:25:10,703
+00:25:04,700 --> 00:25:09,840
 For nested samples of a contiguous mainland it is lower, roughly 0.12 to 0.17,
 
 341
-00:25:10,703 --> 00:25:17,259
+00:25:09,840 --> 00:25:16,430
 because small mainland samples include transient species spilling over from the surrounding habitat.
 
 342
-00:25:18,009 --> 00:25:22,766
+00:25:17,180 --> 00:25:21,905
 With z near 0.3, a tenfold loss of area roughly halves the number of species,
 
 343
-00:25:22,766 --> 00:25:25,732
+00:25:21,905 --> 00:25:24,850
 a rule of thumb attributed to Philip Darlington.
 
 344
-00:25:26,052 --> 00:25:31,555
+00:25:25,250 --> 00:25:30,500
 The same arithmetic, run in reverse, underlies many estimates of extinction from habitat loss.
 
 345
-00:25:34,755 --> 00:25:38,669
+00:25:33,700 --> 00:25:37,573
 In 1963 and 1967, Robert MacArthur and E. O. Wilson
 
 346
-00:25:38,669 --> 00:25:42,891
+00:25:37,573 --> 00:25:41,750
 proposed the equilibrium theory of island biogeography.
 
 347
-00:25:43,211 --> 00:25:47,596
+00:25:42,150 --> 00:25:46,504
 The number of species on an island reflects a dynamic balance between two rates:
 
 348
-00:25:47,596 --> 00:25:51,268
+00:25:46,504 --> 00:25:50,150
 the immigration of new species and the extinction of resident ones.
 
 349
-00:25:52,018 --> 00:25:54,513
+00:25:50,900 --> 00:25:53,509
 The immigration rate falls as an island fills,
 
 350
-00:25:54,513 --> 00:25:58,472
+00:25:53,509 --> 00:25:57,650
 reaching zero when all P species of the mainland source pool are present.
 
 351
-00:25:58,792 --> 00:26:01,064
+00:25:58,050 --> 00:26:00,461
 The extinction rate rises with richness,
 
 352
-00:26:01,064 --> 00:26:05,153
+00:26:00,461 --> 00:26:04,800
 because more species means smaller populations and more species to lose.
 
 353
-00:26:05,473 --> 00:26:08,683
+00:26:05,200 --> 00:26:08,557
 Both curves bend: the best dispersers arrive first,
 
 354
-00:26:08,683 --> 00:26:11,642
+00:26:08,557 --> 00:26:11,650
 and competition intensifies as species pack in.
 
 355
-00:26:12,392 --> 00:26:16,562
+00:26:12,400 --> 00:26:17,290
 Where the curves cross lies the equilibrium species richness, Ŝ.
 
 356
-00:26:16,882 --> 00:26:19,473
+00:26:17,690 --> 00:26:20,319
 The rate at that crossing is the turnover rate:
 
 357
-00:26:19,473 --> 00:26:23,662
+00:26:20,319 --> 00:26:24,570
 even when richness holds steady, the identity of the species keeps changing.
 
 358
-00:26:24,912 --> 00:26:26,690
+00:26:25,820 --> 00:26:27,769
 Distance controls immigration:
 
 359
-00:26:26,690 --> 00:26:30,899
+00:26:27,769 --> 00:26:32,380
 near islands receive more colonists than far ones, the distance effect.
 
 360
-00:26:31,219 --> 00:26:32,807
+00:26:32,780 --> 00:26:34,494
 Area controls extinction:
 
 361
-00:26:32,807 --> 00:26:37,763
+00:26:34,494 --> 00:26:39,840
 large islands support larger populations that persist longer, the area effect.
 
 362
-00:26:38,083 --> 00:26:43,206
+00:26:40,240 --> 00:26:45,180
 So large, near islands hold the most species, and small, far islands the fewest.
 
 363
-00:26:46,606 --> 00:26:48,220
+00:26:48,580 --> 00:26:50,160
 The theory was tested directly.
 
 364
-00:26:48,540 --> 00:26:52,080
+00:26:50,560 --> 00:26:54,345
 Daniel Simberloff and E. O. Wilson tented small mangrove islands
 
 365
-00:26:52,080 --> 00:26:55,676
+00:26:54,345 --> 00:26:58,190
 in the Florida Keys and fumigated them to remove every arthropod.
 
 366
-00:26:55,996 --> 00:27:00,185
+00:26:58,590 --> 00:27:02,805
 Within about a year, species numbers returned close to their original levels,
 
 367
-00:27:00,185 --> 00:27:04,265
+00:27:02,805 --> 00:27:06,910
 with the nearest island richest, but the species were often different ones.
 
 368
-00:27:04,585 --> 00:27:07,543
+00:27:07,310 --> 00:27:10,490
 That is equilibrium with turnover, as predicted.
 
 369
-00:27:08,293 --> 00:27:09,520
+00:27:11,240 --> 00:27:12,380
 Refinements followed.
 
 370
-00:27:09,840 --> 00:27:14,597
+00:27:12,780 --> 00:27:18,104
 James Brown and Astrid Kodric-Brown described the rescue effect in 1977:
 
 371
-00:27:14,597 --> 00:27:20,213
+00:27:18,104 --> 00:27:24,390
 on near islands, immigrants bolster dwindling populations, lowering extinction rates.
 
 372
-00:27:20,533 --> 00:27:22,757
+00:27:24,790 --> 00:27:27,169
 The target effect works the other way:
 
 373
-00:27:22,757 --> 00:27:26,385
+00:27:27,169 --> 00:27:31,050
 larger islands intercept more dispersers, raising immigration.
 
 374
-00:27:26,705 --> 00:27:30,749
+00:27:31,450 --> 00:27:35,810
 Both blur the neat assignment of distance to immigration and area to extinction.
 
 375
-00:27:31,499 --> 00:27:33,828
+00:27:36,560 --> 00:27:39,120
 Real islands also add time and evolution.
 
 376
-00:27:34,148 --> 00:27:40,485
+00:27:39,520 --> 00:27:44,980
 Krakatau, sterilized by its 1883 eruption, has been reassembling ever since.
 
 377
-00:27:40,805 --> 00:27:45,854
+00:27:45,380 --> 00:27:50,086
 And on the most remote archipelagos, like Hawaiʻi, speciation within the islands,
 
 378
-00:27:45,854 --> 00:27:49,345
+00:27:50,086 --> 00:27:53,340
 not immigration, becomes the main source of new species.
 
 379
-00:27:52,745 --> 00:27:55,601
+00:27:56,740 --> 00:27:59,592
 The theory’s greatest influence was on conservation,
 
 380
-00:27:55,601 --> 00:27:59,665
+00:27:59,592 --> 00:28:03,650
 because fragments of habitat behave like islands in a sea of altered land.
 
 381
-00:27:59,985 --> 00:28:03,527
+00:28:04,050 --> 00:28:07,406
 A newly isolated fragment holds more species than its new,
 
 382
-00:28:03,527 --> 00:28:07,679
+00:28:07,406 --> 00:28:11,340
 smaller equilibrium, so its richness decays toward that lower level.
 
 383
-00:28:07,999 --> 00:28:11,329
+00:28:11,740 --> 00:28:15,380
 This decay is called relaxation, or faunal collapse.
 
 384
-00:28:12,079 --> 00:28:16,276
+00:28:16,130 --> 00:28:20,520
 The species destined to vanish but not yet gone constitute an extinction debt,
 
 385
-00:28:16,276 --> 00:28:19,882
+00:28:20,520 --> 00:28:24,290
 a debt that will be paid unless habitat is restored or reconnected.
 
 386
-00:28:20,202 --> 00:28:24,991
+00:28:24,690 --> 00:28:29,147
 William Newmark found in 1987 that western North American national parks had lost
 
 387
-00:28:24,991 --> 00:28:29,840
+00:28:29,147 --> 00:28:33,660
 mammal species since their establishment, with the smallest parks losing the most.
 
 388
-00:28:30,590 --> 00:28:34,518
+00:28:34,410 --> 00:28:38,415
 Island theory also sparked the SLOSS debate: for the same total area,
 
 389
-00:28:34,518 --> 00:28:38,446
+00:28:38,415 --> 00:28:42,420
 is it better to protect a single large reserve or several small ones?
 
 390
-00:28:38,766 --> 00:28:43,322
+00:28:42,820 --> 00:28:47,438
 A single large reserve supports area-sensitive species and larger populations;
 
 391
-00:28:43,322 --> 00:28:47,528
+00:28:47,438 --> 00:28:51,700
 several small reserves can capture more habitat variety and spread risk.
 
 392
-00:28:47,848 --> 00:28:51,885
+00:28:52,100 --> 00:28:55,958
 The answer depends on nestedness, dispersal, and the threats involved,
 
 393
-00:28:51,885 --> 00:28:55,172
+00:28:55,958 --> 00:28:59,100
 and the question led directly to metapopulation thinking.
 
 394
-00:28:58,372 --> 00:28:59,322
+00:29:02,300 --> 00:29:03,090
 Chapter six.
 
 395
-00:28:59,642 --> 00:29:03,803
+00:29:03,490 --> 00:29:07,610
 Metapopulations: persistence across a network of habitat patches.
 
 396
-00:29:06,503 --> 00:29:12,886
+00:29:10,310 --> 00:29:16,978
 A metapopulation is a population of populations: a set of local populations in discrete habitat patches,
 
 397
-00:29:12,886 --> 00:29:16,937
+00:29:16,978 --> 00:29:21,210
 connected by dispersal, each with its own chance of going extinct.
 
 398
-00:29:17,257 --> 00:29:23,568
+00:29:21,610 --> 00:29:27,600
 Richard Levins coined the term in 1969, while thinking about the control of agricultural pests.
 
 399
-00:29:24,318 --> 00:29:28,688
+00:29:28,350 --> 00:29:32,970
 Levins tracked not individuals but the fraction of patches occupied, p.
 
 400
-00:29:29,008 --> 00:29:36,435
+00:29:33,370 --> 00:29:41,670
 Empty patches are colonized at rate c·p·(1 − p), and occupied patches go extinct at rate e·p.
 
 401
-00:29:36,755 --> 00:29:41,158
+00:29:42,070 --> 00:29:47,240
 So dp/dt = cp(1 − p) − ep.
 
 402
-00:29:41,908 --> 00:29:45,529
+00:29:47,990 --> 00:29:51,698
 This has the same form as the logistic equation,
 
 403
-00:29:45,529 --> 00:29:49,603
+00:29:51,698 --> 00:29:55,870
 and occupancy settles at an equilibrium, p* = 1 − e/c.
 
 404
-00:29:51,153 --> 00:29:57,274
+00:29:57,420 --> 00:30:04,322
 The deep insight: a metapopulation can persist indefinitely even though every local population
 
 405
-00:29:57,274 --> 00:30:03,135
+00:30:04,322 --> 00:30:10,930
 eventually blinks out, provided colonization outpaces extinction, that is, provided c > e.
 
 406
-00:30:03,455 --> 00:30:07,273
+00:30:11,330 --> 00:30:15,030
 Persistence is a property of the network, not of any single patch.
 
 407
-00:30:10,673 --> 00:30:13,013
+00:30:18,430 --> 00:30:20,590
 Now destroy a fraction D of the patches.
 
 408
-00:30:13,333 --> 00:30:18,183
+00:30:20,990 --> 00:30:26,610
 Equilibrium occupancy becomes p* = 1 − D − e/c.
 
 409
-00:30:18,503 --> 00:30:21,539
+00:30:27,010 --> 00:30:30,220
 Occupancy falls one-for-one with habitat destroyed.
 
 410
-00:30:22,789 --> 00:30:29,105
+00:30:31,470 --> 00:30:37,920
 The metapopulation goes extinct when D reaches 1 − e/c, while suitable habitat still remains.
 
 411
-00:30:29,425 --> 00:30:31,392
+00:30:38,320 --> 00:30:40,216
 This is the extinction threshold:
 
 412
-00:30:31,392 --> 00:30:36,459
+00:30:40,216 --> 00:30:45,100
 a species can disappear from a landscape that still contains empty, suitable patches.
 
 413
-00:30:38,209 --> 00:30:39,359
+00:30:46,850 --> 00:30:47,890
 Two lessons follow.
 
 414
-00:30:39,679 --> 00:30:42,943
+00:30:48,290 --> 00:30:51,509
 Empty patches are not evidence that habitat is unimportant;
 
 415
-00:30:42,943 --> 00:30:46,595
+00:30:51,509 --> 00:30:55,110
 they may be the very patches the network needs for recolonization.
 
 416
-00:30:46,915 --> 00:30:50,131
+00:30:55,510 --> 00:30:58,571
 And because decline toward a new equilibrium takes time,
 
 417
-00:30:50,131 --> 00:30:54,667
+00:30:58,571 --> 00:31:02,890
 species that persist after habitat loss may already be committed to extinction.
 
 418
-00:30:54,987 --> 00:30:58,961
+00:31:03,290 --> 00:31:07,092
 Tilman and colleagues argued in 1994 that the best competitors,
 
 419
-00:30:58,961 --> 00:31:02,115
+00:31:07,092 --> 00:31:10,110
 often the poorest colonizers, are the first to go.
 
 420
-00:31:05,515 --> 00:31:08,134
+00:31:13,510 --> 00:31:15,910
 Not every metapopulation looks like Levins’s.
 
 421
-00:31:08,454 --> 00:31:10,949
+00:31:16,310 --> 00:31:18,549
 In a mainland–island system, one large,
 
 422
-00:31:10,949 --> 00:31:16,322
+00:31:18,549 --> 00:31:23,370
 effectively permanent population supplies colonists to small, extinction-prone ones.
 
 423
-00:31:16,642 --> 00:31:22,328
+00:31:23,770 --> 00:31:29,180
 In a patchy population, dispersal is so frequent that the patches behave as a single population.
 
 424
-00:31:22,648 --> 00:31:27,326
+00:31:29,580 --> 00:31:34,416
 In a nonequilibrium metapopulation, extinctions outpace recolonization,
 
 425
-00:31:27,326 --> 00:31:31,016
+00:31:34,416 --> 00:31:38,230
 often after fragmentation, and the system is in decline.
 
 426
-00:31:31,766 --> 00:31:35,930
+00:31:38,980 --> 00:31:43,060
 Ronald Pulliam’s 1988 source–sink model adds habitat quality.
 
 427
-00:31:36,250 --> 00:31:42,713
+00:31:43,460 --> 00:31:49,670
 In source habitats, births exceed deaths, λ > 1, and surplus individuals emigrate.
 
 428
-00:31:43,033 --> 00:31:48,580
+00:31:50,070 --> 00:31:55,330
 In sink habitats, λ < 1, and populations persist only through immigration.
 
 429
-00:31:49,330 --> 00:31:51,917
+00:31:56,080 --> 00:31:58,565
 A large share of a species can live in sinks,
 
 430
-00:31:51,917 --> 00:31:55,596
+00:31:58,565 --> 00:32:02,100
 so local abundance can be a misleading guide to habitat quality.
 
 431
-00:31:55,916 --> 00:31:59,648
+00:32:02,500 --> 00:32:06,272
 Worse is an ecological trap: a sink that animals actively prefer,
 
 432
-00:31:59,648 --> 00:32:02,978
+00:32:06,272 --> 00:32:09,638
 because cues that once signaled good habitat no longer do,
 
 433
-00:32:02,978 --> 00:32:07,284
+00:32:09,638 --> 00:32:13,990
 as when grassland birds nest in hayfields mowed before their chicks fledge.
 
 434
-00:32:11,684 --> 00:32:14,479
+00:32:18,390 --> 00:32:21,210
 Ilkka Hanski made the theory spatially realistic.
 
 435
-00:32:14,799 --> 00:32:19,938
+00:32:21,610 --> 00:32:26,643
 His incidence function model predicts each patch’s probability of occupancy from its area,
 
 436
-00:32:19,938 --> 00:32:22,735
+00:32:26,643 --> 00:32:29,383
 which sets extinction risk, and its connectivity,
 
 437
-00:32:22,735 --> 00:32:26,846
+00:32:29,383 --> 00:32:33,410
 a sum of contributions from occupied patches weighted by their distance.
 
 438
-00:32:27,596 --> 00:32:32,275
+00:32:34,160 --> 00:32:38,907
 His test case became the flagship of the field: the Glanville fritillary butterfly,
 
 439
-00:32:32,275 --> 00:32:37,462
+00:32:38,907 --> 00:32:44,170
 living as a metapopulation across some four thousand dry meadows in Finland’s Åland Islands,
 
 440
-00:32:37,462 --> 00:32:40,676
+00:32:44,170 --> 00:32:47,430
 where local populations wink out and reappear every year.
 
 441
-00:32:41,426 --> 00:32:43,412
+00:32:48,180 --> 00:32:50,010
 Two more forces shape persistence.
 
 442
-00:32:43,732 --> 00:32:48,148
+00:32:50,410 --> 00:32:54,340
 Dispersal provides rescue, but it can also synchronize local dynamics,
 
 443
-00:32:48,148 --> 00:32:50,924
+00:32:54,340 --> 00:32:56,810
 and so can shared weather, the Moran effect.
 
 444
-00:32:51,244 --> 00:32:54,298
+00:32:57,210 --> 00:33:00,194
 When patches fluctuate in synchrony they crash together,
 
 445
-00:32:54,298 --> 00:32:58,061
+00:33:00,194 --> 00:33:03,870
 and the spreading of risk that lets a metapopulation persist is lost.
 
 446
-00:33:01,261 --> 00:33:02,165
+00:33:07,070 --> 00:33:07,890
 Chapter seven.
 
 447
-00:33:02,485 --> 00:33:06,041
+00:33:08,290 --> 00:33:11,740
 Metacommunities: linking local communities across a region.
 
 448
-00:33:08,741 --> 00:33:13,079
+00:33:14,440 --> 00:33:18,592
 A metacommunity, as defined by Mathew Leibold and colleagues in 2004,
 
 449
-00:33:13,079 --> 00:33:19,303
+00:33:18,592 --> 00:33:24,550
 is a set of local communities linked by the dispersal of multiple, potentially interacting species.
 
 450
-00:33:19,623 --> 00:33:22,754
+00:33:24,950 --> 00:33:27,970
 It is the community-level counterpart of the metapopulation.
 
 451
-00:33:23,504 --> 00:33:26,044
+00:33:28,720 --> 00:33:31,260
 Its diversity is partitioned across scales.
 
 452
-00:33:26,364 --> 00:33:30,919
+00:33:31,660 --> 00:33:36,885
 Alpha diversity is local richness; gamma diversity is the regional total;
 
 453
-00:33:30,919 --> 00:33:35,474
+00:33:36,885 --> 00:33:42,110
 and beta diversity, the variation in composition among sites, links them.
 
 454
-00:33:35,794 --> 00:33:39,867
+00:33:42,510 --> 00:33:46,440
 In Whittaker’s multiplicative form, γ = α × β.
 
 455
-00:33:41,117 --> 00:33:47,179
+00:33:47,690 --> 00:33:54,096
 Beta diversity itself has two components: turnover, as species replace one another along gradients,
 
 456
-00:33:47,179 --> 00:33:52,568
+00:33:54,096 --> 00:33:59,790
 and nestedness, as species-poor sites hold subsets of the species found at richer sites.
 
 457
-00:33:53,818 --> 00:33:58,961
+00:34:01,040 --> 00:34:06,580
 Community assembly is often pictured as a series of filters acting on a regional species pool.
 
 458
-00:33:59,281 --> 00:34:05,529
+00:34:06,980 --> 00:34:12,738
 Dispersal determines who arrives, environmental filtering determines who can tolerate local conditions,
 
 459
-00:34:05,529 --> 00:34:08,320
+00:34:12,738 --> 00:34:15,310
 and biotic interactions determine who remains.
 
 460
-00:34:08,640 --> 00:34:12,241
+00:34:15,710 --> 00:34:18,867
 Kraft and colleagues cautioned in 2015 that competition can
 
 461
-00:34:12,241 --> 00:34:15,964
+00:34:18,867 --> 00:34:22,130
 produce patterns easily mistaken for environmental filtering.
 
 462
-00:34:19,364 --> 00:34:21,981
+00:34:25,530 --> 00:34:28,210
 Leibold and colleagues described four paradigms.
 
 463
-00:34:22,301 --> 00:34:26,869
+00:34:28,610 --> 00:34:33,219
 In patch dynamics, patches are identical, and species coexist regionally
 
 464
-00:34:26,869 --> 00:34:32,388
+00:34:33,219 --> 00:34:38,789
 through a competition–colonization trade-off: superior competitors are poor dispersers,
 
 465
-00:34:32,388 --> 00:34:36,195
+00:34:38,789 --> 00:34:42,630
 so fugitive species persist by reaching empty patches first.
 
 466
-00:34:36,945 --> 00:34:40,681
+00:34:43,380 --> 00:34:46,909
 In species sorting, patches differ in environmental conditions,
 
 467
-00:34:40,681 --> 00:34:43,350
+00:34:46,909 --> 00:34:49,430
 and each species does best in different ones.
 
 468
-00:34:43,670 --> 00:34:47,320
+00:34:49,830 --> 00:34:53,322
 Dispersal is sufficient for species to reach suitable patches,
 
 469
-00:34:47,320 --> 00:34:49,911
+00:34:53,322 --> 00:34:55,800
 so local composition tracks the environment.
 
 470
-00:34:50,231 --> 00:34:52,923
+00:34:56,200 --> 00:34:58,900
 This is classic niche theory, set in space.
 
 471
-00:34:53,673 --> 00:34:57,849
+00:34:59,650 --> 00:35:03,620
 In mass effects, dispersal is so high that it overrides local fitness.
 
 472
-00:34:58,169 --> 00:35:03,351
+00:35:04,020 --> 00:35:09,355
 Immigrants spill from patches where a species thrives into patches where it cannot persist alone,
 
 473
-00:35:03,351 --> 00:35:06,931
+00:35:09,355 --> 00:35:13,040
 a community-wide source–sink dynamic that inflates local diversity.
 
 474
-00:35:07,251 --> 00:35:11,323
+00:35:13,440 --> 00:35:17,530
 At extreme dispersal, the region homogenizes and diversity falls.
 
 475
-00:35:12,073 --> 00:35:16,099
+00:35:18,280 --> 00:35:22,105
 And in the neutral paradigm, species are demographically equivalent,
 
 476
-00:35:16,099 --> 00:35:20,125
+00:35:22,105 --> 00:35:25,930
 and composition drifts through chance births, deaths, and dispersal.
 
 477
-00:35:20,445 --> 00:35:22,491
+00:35:26,330 --> 00:35:28,250
 We will return to it in the next chapter.
 
 478
-00:35:25,891 --> 00:35:29,510
+00:35:31,650 --> 00:35:35,030
 Across these paradigms, dispersal rate is a master variable.
 
 479
-00:35:29,830 --> 00:35:34,098
+00:35:35,430 --> 00:35:39,641
 Theory by Nicolas Mouquet and Michel Loreau predicts that local diversity
 
 480
-00:35:34,098 --> 00:35:38,425
+00:35:39,641 --> 00:35:43,910
 peaks at intermediate dispersal, while beta diversity declines steadily as
 
 481
-00:35:38,425 --> 00:35:42,986
+00:35:43,910 --> 00:35:48,410
 dispersal homogenizes the region, and regional diversity eventually falls too.
 
 482
-00:35:44,236 --> 00:35:47,840
+00:35:49,660 --> 00:35:53,303
 To diagnose which processes structure a real metacommunity,
 
 483
-00:35:47,840 --> 00:35:52,361
+00:35:53,303 --> 00:35:57,872
 ecologists often use variation partitioning: how much variation in species
 
 484
-00:35:52,361 --> 00:35:58,225
+00:35:57,872 --> 00:36:03,800
 composition is explained by environment alone, by spatial structure alone, and by both together.
 
 485
-00:35:58,545 --> 00:36:01,940
+00:36:04,200 --> 00:36:07,564
 A large environmental fraction suggests species sorting;
 
 486
-00:36:01,940 --> 00:36:06,123
+00:36:07,564 --> 00:36:11,710
 a large pure spatial fraction suggests dispersal limitation or drift.
 
 487
-00:36:06,873 --> 00:36:09,602
+00:36:12,460 --> 00:36:14,990
 Treat these fractions as clues, not verdicts.
 
 488
-00:36:09,922 --> 00:36:15,654
+00:36:15,390 --> 00:36:20,598
 Unmeasured environmental variables that are spatially structured can masquerade as dispersal effects,
 
 489
-00:36:15,654 --> 00:36:19,740
+00:36:20,598 --> 00:36:24,310
 and very different processes can leave similar statistical fingerprints.
 
 490
-00:36:22,940 --> 00:36:23,739
+00:36:27,510 --> 00:36:28,120
 Chapter eight.
 
 491
-00:36:24,059 --> 00:36:27,500
+00:36:28,520 --> 00:36:32,430
 Neutral theory: what chance and dispersal alone can explain.
 
 492
-00:36:30,200 --> 00:36:33,156
+00:36:35,130 --> 00:36:38,030
 Niche theory explains coexistence through differences.
 
 493
-00:36:33,476 --> 00:36:37,435
+00:36:38,430 --> 00:36:42,397
 In 2001, Stephen Hubbell’s Unified Neutral Theory of Biodiversity
 
 494
-00:36:37,435 --> 00:36:40,236
+00:36:42,397 --> 00:36:45,204
 and Biogeography asked a provocative question:
 
 495
-00:36:40,236 --> 00:36:45,291
+00:36:45,204 --> 00:36:50,270
 how much of nature’s pattern could we explain if species had no differences at all?
 
 496
-00:36:46,041 --> 00:36:51,158
+00:36:51,020 --> 00:36:56,230
 Neutral theory assumes ecological equivalence: every individual of every species
 
 497
-00:36:51,158 --> 00:36:56,019
+00:36:56,230 --> 00:37:01,180
 has identical per-capita chances of birth, death, dispersal, and speciation.
 
 498
-00:36:56,339 --> 00:36:59,865
+00:37:01,580 --> 00:37:05,040
 It is a theory built on individuals, not on species traits.
 
 499
-00:37:00,615 --> 00:37:06,466
+00:37:05,790 --> 00:37:11,540
 Communities are zero-sum: a fixed number of individuals, J, saturates the landscape.
 
 500
-00:37:06,786 --> 00:37:11,456
+00:37:11,940 --> 00:37:16,450
 Whenever one dies, it is replaced by the offspring of another, chosen at random.
 
 501
-00:37:11,776 --> 00:37:16,593
+00:37:16,850 --> 00:37:22,014
 Species abundances therefore wander by chance, a process called ecological drift,
 
 502
-00:37:16,593 --> 00:37:22,064
+00:37:22,014 --> 00:37:27,880
 directly analogous to genetic drift in Motoo Kimura’s neutral theory of molecular evolution.
 
 503
-00:37:23,614 --> 00:37:29,683
+00:37:29,430 --> 00:37:35,950
 In an isolated community, drift alone eventually leads to monodominance: one species takes over.
 
 504
-00:37:30,003 --> 00:37:34,831
+00:37:36,350 --> 00:37:40,996
 Diversity persists only if it is replenished, by immigration from outside,
 
 505
-00:37:34,831 --> 00:37:37,962
+00:37:40,996 --> 00:37:44,010
 and, over the longest timescales, by speciation.
 
 506
-00:37:41,862 --> 00:37:43,611
+00:37:47,910 --> 00:37:49,580
 Hubbell’s model has two scales.
 
 507
-00:37:43,931 --> 00:37:49,084
+00:37:49,980 --> 00:37:55,350
 In the metacommunity, new species arise by point speciation, at a rate ν per birth.
 
 508
-00:37:49,404 --> 00:37:55,978
+00:37:55,750 --> 00:38:02,507
 Diversity there is governed by a single number, the fundamental biodiversity number θ = 2J_Mν,
 
 509
-00:37:55,978 --> 00:37:59,824
+00:38:02,507 --> 00:38:06,460
 twice the metacommunity size times the speciation rate.
 
 510
-00:38:00,144 --> 00:38:06,433
+00:38:06,860 --> 00:38:13,000
 At equilibrium, metacommunity abundances follow Fisher’s log-series, and θ equals Fisher’s α.
 
 511
-00:38:07,183 --> 00:38:09,684
+00:38:13,750 --> 00:38:16,050
 Local communities draw from the metacommunity.
 
 512
-00:38:10,004 --> 00:38:15,209
+00:38:16,450 --> 00:38:21,963
 With probability m, a dead individual is replaced by an immigrant from the metacommunity;
 
 513
-00:38:15,209 --> 00:38:18,133
+00:38:21,963 --> 00:38:25,060
 otherwise, by the offspring of a local individual.
 
 514
-00:38:18,453 --> 00:38:21,779
+00:38:25,460 --> 00:38:28,864
 The immigration probability m sets how strongly dispersal
 
 515
-00:38:21,779 --> 00:38:24,872
+00:38:28,864 --> 00:38:32,030
 limitation separates local from regional composition.
 
 516
-00:38:25,622 --> 00:38:29,433
+00:38:32,780 --> 00:38:36,702
 The theory’s central prediction is the species abundance distribution:
 
 517
-00:38:29,433 --> 00:38:31,938
+00:38:36,702 --> 00:38:39,280
 how many species are common and how many rare.
 
 518
-00:38:32,258 --> 00:38:37,391
+00:38:39,680 --> 00:38:44,952
 Frank Preston plotted abundances in doubling classes he called octaves, and found a humped,
 
 519
-00:38:37,391 --> 00:38:42,918
+00:38:44,952 --> 00:38:50,630
 roughly lognormal shape, with the rarest species hidden behind a veil line of incomplete sampling.
 
 520
-00:38:43,668 --> 00:38:47,774
+00:38:51,380 --> 00:38:55,540
 Hubbell’s zero-sum multinomial reproduces such humped distributions.
 
 521
-00:38:48,094 --> 00:38:53,620
+00:38:55,940 --> 00:39:01,444
 Dispersal limitation leaves local communities with fewer rare species than the log-series predicts,
 
 522
-00:38:53,620 --> 00:38:56,076
+00:39:01,444 --> 00:39:03,890
 because rare regional species seldom arrive.
 
 523
-00:38:59,476 --> 00:39:02,902
+00:39:07,290 --> 00:39:10,399
 Neutral models fit the species abundance distribution of the
 
 524
-00:39:02,902 --> 00:39:06,727
+00:39:10,399 --> 00:39:13,870
 fifty-hectare forest plot on Barro Colorado Island remarkably well.
 
 525
-00:39:07,047 --> 00:39:09,779
+00:39:14,270 --> 00:39:16,800
 They also predict distance decay of similarity,
 
 526
-00:39:09,779 --> 00:39:14,313
+00:39:16,800 --> 00:39:21,000
 as dispersal limitation makes nearby communities more alike than distant ones.
 
 527
-00:39:15,063 --> 00:39:17,761
+00:39:21,750 --> 00:39:24,370
 But fitting a pattern is weak evidence for a process.
 
 528
-00:39:18,081 --> 00:39:21,913
+00:39:24,770 --> 00:39:28,472
 Niche-based models can produce the same abundance distributions,
 
 529
-00:39:21,913 --> 00:39:25,505
+00:39:28,472 --> 00:39:31,943
 and experiments routinely find stabilizing niche differences
 
 530
-00:39:25,505 --> 00:39:30,055
+00:39:31,943 --> 00:39:36,340
 and species-specific negative density dependence, even among tropical trees.
 
 531
-00:39:30,375 --> 00:39:33,118
+00:39:36,740 --> 00:39:39,510
 Strict neutrality is almost certainly false.
 
 532
-00:39:33,868 --> 00:39:37,734
+00:39:40,260 --> 00:39:44,300
 Its lasting value is as a null model: neutral theory shows what chance
 
 533
-00:39:37,734 --> 00:39:42,096
+00:39:44,300 --> 00:39:48,860
 and dispersal alone can produce, so that departures from it become informative.
 
 534
-00:39:42,416 --> 00:39:44,108
+00:39:49,260 --> 00:39:50,770
 It also seeded a synthesis.
 
 535
-00:39:44,428 --> 00:39:47,602
+00:39:51,170 --> 00:39:54,330
 In Chesson’s terms, neutrality is the special case of
 
 536
-00:39:47,602 --> 00:39:50,717
+00:39:54,330 --> 00:39:57,430
 zero niche differences and zero fitness differences.
 
 537
-00:39:51,037 --> 00:39:54,706
+00:39:57,830 --> 00:40:01,322
 And Scheffer and van Nes showed how emergent neutrality can arise,
 
 538
-00:39:54,706 --> 00:39:59,265
+00:40:01,322 --> 00:40:05,660
 with clumps of similar species coexisting almost neutrally within distinct niches.
 
 539
-00:40:02,665 --> 00:40:03,534
+00:40:09,060 --> 00:40:09,800
 Chapter nine.
 
 540
-00:40:03,854 --> 00:40:06,701
+00:40:10,200 --> 00:40:12,870
 Synthesis: one framework for the whole toolkit.
 
 541
-00:40:09,401 --> 00:40:14,882
+00:40:15,570 --> 00:40:21,444
 Mark Vellend’s theory of ecological communities, developed in 2010 and 2016,
 
 542
-00:40:14,882 --> 00:40:18,848
+00:40:21,444 --> 00:40:25,694
 reduces community ecology to four high-level processes,
 
 543
-00:40:18,848 --> 00:40:24,545
+00:40:25,694 --> 00:40:31,800
 borrowed from population genetics: selection, drift, dispersal, and speciation.
 
 544
-00:40:25,295 --> 00:40:30,603
+00:40:32,550 --> 00:40:37,759
 Selection means deterministic fitness differences among species: niches, competition,
 
 545
-00:40:30,603 --> 00:40:35,537
+00:40:37,759 --> 00:40:42,600
 predation, and the stabilizing and equalizing mechanisms of coexistence theory.
 
 546
-00:40:35,857 --> 00:40:41,121
+00:40:43,000 --> 00:40:48,180
 Drift is demographic chance, decisive in small populations and the engine of neutral theory.
 
 547
-00:40:41,441 --> 00:40:43,848
+00:40:48,580 --> 00:40:50,992
 Dispersal moves organisms among places,
 
 548
-00:40:43,848 --> 00:40:48,784
+00:40:50,992 --> 00:40:55,940
 from island colonization to metapopulation rescue to metacommunity mass effects.
 
 549
-00:40:49,104 --> 00:40:51,951
+00:40:56,340 --> 00:40:59,110
 Speciation adds new species to the regional pool.
 
 550
-00:40:52,701 --> 00:40:55,414
+00:40:59,860 --> 00:41:02,340
 Every chapter you have seen is a particular blend.
 
 551
-00:40:55,734 --> 00:40:59,736
+00:41:02,740 --> 00:41:06,650
 Island biogeography is dispersal set against stochastic extinction.
 
 552
-00:41:00,056 --> 00:41:03,624
+00:41:07,050 --> 00:41:10,800
 Metapopulations are colonization and extinction among patches.
 
 553
-00:41:03,944 --> 00:41:06,477
+00:41:11,200 --> 00:41:13,920
 Species sorting is selection plus dispersal.
 
 554
-00:41:06,797 --> 00:41:11,968
+00:41:14,320 --> 00:41:19,520
 Neutral theory is drift, dispersal, and speciation, with selection set to zero.
 
 555
-00:41:15,868 --> 00:41:19,030
+00:41:23,420 --> 00:41:26,020
 Before your exam, rehearse with questions like these.
 
 556
-00:41:19,350 --> 00:41:22,417
+00:41:26,420 --> 00:41:29,350
 Why is a Type II functional response destabilizing?
 
 557
-00:41:22,737 --> 00:41:25,294
+00:41:29,750 --> 00:41:32,390
 Why does the species with the lowest R* win?
 
 558
-00:41:25,614 --> 00:41:28,623
+00:41:32,790 --> 00:41:35,470
 Why don’t empty patches mean habitat is unimportant?
 
 559
-00:41:30,873 --> 00:41:34,486
+00:41:37,720 --> 00:41:41,010
 What separates a stabilizing mechanism from an equalizing one?
 
 560
-00:41:34,806 --> 00:41:39,981
+00:41:41,410 --> 00:41:46,550
 How do the four metacommunity paradigms differ in dispersal and environmental heterogeneity?
 
 561
-00:41:40,301 --> 00:41:43,258
+00:41:46,950 --> 00:41:49,620
 And what does the fundamental biodiversity number measure?
 
 562
-00:41:45,508 --> 00:41:48,916
+00:41:51,870 --> 00:41:55,159
 If you can sketch the graphs from memory, the isoclines,
 
 563
-00:41:48,916 --> 00:41:52,325
+00:41:55,159 --> 00:41:58,448
 the immigration and extinction curves, the phase planes,
 
 564
-00:41:52,325 --> 00:41:57,498
+00:41:58,448 --> 00:42:03,440
 and explain what moves each line, you understand the theory, not just its vocabulary.
 
 565
-00:41:57,818 --> 00:42:01,276
+00:42:03,840 --> 00:42:07,200
 The ecological theater is vast, but its rules are learnable.
 
 566
-00:42:01,596 --> 00:42:02,161
+00:42:07,600 --> 00:42:08,090
 Good luck.

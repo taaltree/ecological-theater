@@ -117,7 +117,7 @@ const html = `<!doctype html>
 </div>
 ${chapterHTML}
 <section class="ch" id="refs" style="--c:${INK.syn}"><div class="chhead"><h2>References</h2></div><ul class="refs">${REFERENCES.map((r) => `<li>${r}</li>`).join('')}</ul>
-<footer>Generated from the same source as the video, so term numbers and timestamps stay in sync. Narration uses a synthesized voice. Figures in the video that are marked “stylized” or “illustrative” show qualitative patterns, not reproduced data.</footer></section>
+<footer>Generated from the same source as the video, so term numbers and timestamps stay in sync. Narration: ElevenLabs voice “Megan” (Multilingual v2). Figures in the video that are marked “stylized” or “illustrative” show qualitative patterns, not reproduced data.</footer></section>
 </main>
 </body>
 </html>`;
