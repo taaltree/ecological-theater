@@ -5,6 +5,7 @@ An animated, narrated review of core ecological theory for graduate comprehensiv
 **Watch:** https://taaltree.github.io/ecological-theater/
 **Download the video:** [Releases](https://github.com/taaltree/ecological-theater/releases/latest)
 **Study guide:** [HTML](https://taaltree.github.io/ecological-theater/The_Ecological_Theater_Study_Guide.html) · [PDF](https://taaltree.github.io/ecological-theater/The_Ecological_Theater_Study_Guide.pdf)
+**Series:** Part 1. Part 2 is [The Epistemic Theater](https://taaltree.github.io/epistemic-theater/), on the philosophy of science, told through the ecology of predation.
 
 | | Chapter | Starts | Scenes |
 |---|---|---|---|
